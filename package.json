@@ -1,5 +1,5 @@
 {
-  "name": "node-sass-import-once",
+  "name": "node-sass-importer",
   "version": "1.2.0",
   "description": "Custom importer for node-sass that only allows a file to be imported once. Includes additional import bonuses including importing CSS files directly into Sass, automagic Bower imports, the ability to import an `index` file from within a folder name, and the ability to import JSON and YAML files as Sass maps. Inspired by Eyeglass.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/at-import/node-sass-import-once.git"
+    "url": "https://github.com/kenotron/node-sass-importer.git"
   },
   "keywords": [
     "libsass",
@@ -17,7 +17,7 @@
     "importer",
     "sass"
   ],
-  "author": "Sam Richard <sam@snug.ug>",
+  "author": "Ken Chau <ken@gizzar.com>",
   "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/at-import/node-sass-import-once/issues"
