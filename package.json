@@ -20,9 +20,9 @@
   "author": "Ken Chau <ken@gizzar.com>",
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/at-import/node-sass-import-once/issues"
+    "url": "https://github.com/at-import/node-sass-importer/issues"
   },
-  "homepage": "https://github.com/at-import/node-sass-import-once",
+  "homepage": "https://github.com/at-import/node-sass-importer",
   "devDependencies": {
     "eslint": "^0.18.0",
     "mocha": "^2.2.1",
