@@ -51,10 +51,9 @@ var getFileNames = function getFileNames(abstractName) {
       directory,
       basename;
 
-  if (path.extname(abstractName)) {
+  if ([ '.scss', '.sass', '.css', '.json', '.yaml' ].indexOf(path.extname(abstractName)) !== -1) {
     names.push(abstractName);
-  }
-  else {
+  } else {
     directory = path.dirname(abstractName);
     basename = path.basename(abstractName);
 
